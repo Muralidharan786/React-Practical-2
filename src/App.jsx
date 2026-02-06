@@ -13,7 +13,7 @@ import Formm from './components/Formm';
 import Forms from './components/Forms';
 import FormHook from './components/FormHook';
 // import MemoParent from './components/MemoParent';
-// import MemoComputation from './components/MemoComputation';
+import MemoComputation from './components/MemoComputation';
 import CallbackExample from './components/CallbackExample';
 import ParentComponent from './components/ParentComponent';
 // import { ErrorBoundary } from "react-error-boundary";
@@ -28,7 +28,7 @@ function App() {
   return (
     <>
     {/* <MemoParent />  */}
-    <MemoComputation /> 
+      <MemoComputation /> 
      <CallbackExample />
     <ParentComponent /> 
 
