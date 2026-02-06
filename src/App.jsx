@@ -28,7 +28,7 @@ function App() {
   return (
     <>
     {/* <MemoParent />  */}
-     {/* <MemoComputation />   */}
+    <MemoComputation /> 
      <CallbackExample />
     <ParentComponent /> 
 
